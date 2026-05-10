@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link href="C:\Users\USER\Desktop\skilldevproj\images\favicon.png" rel="icon">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login - EDUTRACKER</title> 
+    <link rel="stylesheet" href="stylelog.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <div class="login-container">
+        <div class="login-box">
+            <div class="form-section">
+                <div class="logo">
+                    <img src="C:\Users\USER\Desktop\skilldevproj\images\logoedt.png" alt="EDUTRACKER Logo">
+                </div>
+                <h2>Sign in</h2>
+                <p>If you don't have an account register<br>
+                You can <a href="signup.html">Register here !</a></p>
+                
+                <form action="/login" method="POST">
+                    <div class="input-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" placeholder="Enter your email address" required>
+                    </div>
+                    <div class="input-group">
+                        <label for="password">Password</label>
+                        <input type="password" id="password" name="password" placeholder="Enter your Password" required>
+                    </div>
+                    <div class="checkbox-group">
+                        <div class="remember-me">
+                            <input type="checkbox" id="remember" name="remember">
+                            <label for="remember">Remember me</label>
+                        </div>
+                        <a href="#" class="forgot-password">Forgot Password?</a>
+                    </div>
+                    <button type="submit" class="login-btn">Login</button>
+                </form>
+            </div>
+            <div class="illustration-section">
+                <img src="C:\Users\USER\Desktop\skilldevproj\images\Saly.png" alt="Illustration">
+                <h3>Sign in to EDUTRACKER</h3>
+                <p class="tagline">Stay on Course, Achieve More</p>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>

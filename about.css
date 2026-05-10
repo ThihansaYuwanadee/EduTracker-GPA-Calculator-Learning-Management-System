@@ -1,0 +1,117 @@
+
+body {
+    font-family: 'Poppins', sans-serif;
+    line-height: 1.6;
+    background-color: #0d1b2a;
+    color: #ffffff;
+}
+
+.containerontop {
+    padding-top: 10px;
+    margin-top: 30pt;
+    display: flex;
+    flex-direction: column;
+    align-items: center;  
+    justify-content: center;
+}
+
+.logoontop {
+    align-items : center ;
+    width: 30%;
+}
+
+.slogan {
+    align-self: center;
+    font-weight: 600;
+}
+
+.container {
+    width: 80%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding-left: 20px;
+    padding-bottom: 20px;
+    padding-right: 20px;
+    padding-top: 1px;
+    align-items: center;
+}
+
+
+header {
+    background-color: #1b263b;
+    display: flex;
+    flex-direction: column;
+    align-items: center;  
+    justify-content: center;
+    padding: 50px 0;
+    border-bottom: 3px solid #415a77;
+}
+
+header .logo {
+    width: 80px;  
+    height: auto;
+    margin-bottom: 20px;
+}
+
+header p {
+    font-size: 1.2rem;
+    color: #dbe2ef;
+    text-align: center;  
+}
+
+
+section.about {
+    padding: 50px 0;
+}
+
+.about h2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    color: #ffffff;
+    text-align: center;
+}
+
+.about h3 {
+    font-size: 1.8rem;
+    margin-top: 40px;
+    color: #dbe2ef;
+}
+
+.about p, .about li {
+    font-size: 1.1rem;
+    color: #dbe2ef;
+    margin: 10px 0;
+}
+
+.about ul {
+    list-style-type: none;
+    margin-top: 20px;
+}
+
+.about ul li {
+    margin: 10px 0;
+    padding-left: 20px;
+    position: relative;
+}
+
+.about ul li::before {
+    content: "\2022";
+    color: #415a77;
+    font-weight: bold;
+    display: inline-block;
+    width: 1rem;
+    margin-left: -1rem;
+}
+
+
+footer {
+    background-color: #1b263b;
+    text-align: center;
+    padding: 20px 0;
+    border-top: 3px solid #415a77;
+}
+
+footer p {
+    color: #dbe2ef;
+    font-size: 0.9rem;
+}

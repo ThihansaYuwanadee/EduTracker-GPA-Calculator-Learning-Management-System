@@ -1,0 +1,152 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f2f2f2;
+}
+
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.login-box {
+    display: flex;
+    background-color: white;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.form-section {
+    padding: 40px;
+    width: 400px;
+    background-color: #fff;
+}
+
+  .logo {
+    display: flex;
+    justify-content: left;
+    margin-bottom: 20px;
+}
+
+.logo img {
+    width: 150px;
+}
+
+.illustration-section {
+    background-color: #0A1930;
+    padding: 40px;
+    color: white;
+    text-align: center;
+    width: 400px;
+}
+
+.illustration-section img {
+    width: 100%;
+    max-width: 250px;
+    margin-bottom: 20px;
+}
+
+h2 {
+    font-size: 32px;
+    color: #000;
+    margin-bottom: 10px;
+}
+
+p {
+    font-size: 14px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+a {
+    color: #007BFF;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.input-group {
+    margin-bottom: 20px;
+}
+
+.input-group label {
+    font-size: 14px;
+    color: #000;
+}
+
+.input-group input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-top: 5px;
+}
+
+.checkbox-group {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+  .remember-me {
+    display: flex;
+    align-items: center;
+}
+
+.remember-me label {
+    font-size: 14px;
+    color: #333;
+    margin-left: 5px;
+}
+
+.forgot-password {
+    font-size: 14px;
+    color: #007BFF;
+    text-decoration: none;
+}
+
+.forgot-password:hover {
+    text-decoration: underline;
+}
+
+.login-btn {
+    width: 100%;
+    padding: 10px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.login-btn:hover {
+    background-color: #0056b3;
+}
+
+h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.tagline {
+    color: #fff;
+    font-size: 16px;
+    margin-top: 10px;   }
